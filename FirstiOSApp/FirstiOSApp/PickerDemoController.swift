@@ -14,14 +14,14 @@ class PickerDemoController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        datePickerView.datePickerMode = .time
         // Do any additional setup after loading the view.
     }
 
     @IBAction func showSelectedDate(_ sender: UIButton) {
         let selectedDate = datePickerView.date
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "dd/MM/yyyy hh:mm:ss a"
+        dateFormatter.dateFormat = "dd/MMM/yyyy hh:mm:ss a"
         let formattedDate = dateFormatter.string(from: selectedDate)
         print("Selected Date is \(formattedDate)")
     }
