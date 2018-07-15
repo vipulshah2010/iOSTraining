@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9295C31420FA4226003BDD76 /* PickerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C31320FA4226003BDD76 /* PickerDemoController.swift */; };
 		92F1BC7F20F065D3005E3A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1BC7E20F065D3005E3A81 /* AppDelegate.swift */; };
 		92F1BC8120F065D3005E3A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1BC8020F065D3005E3A81 /* ViewController.swift */; };
 		92F1BC8420F065D3005E3A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F1BC8220F065D3005E3A81 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9295C31320FA4226003BDD76 /* PickerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemoController.swift; sourceTree = "<group>"; };
 		92F1BC7B20F065D3005E3A81 /* FirstiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F1BC7E20F065D3005E3A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92F1BC8020F065D3005E3A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				92F1BC7E20F065D3005E3A81 /* AppDelegate.swift */,
 				92F1BC8020F065D3005E3A81 /* ViewController.swift */,
+				9295C31320FA4226003BDD76 /* PickerDemoController.swift */,
 				92F1BC8220F065D3005E3A81 /* Main.storyboard */,
 				92F1BC8520F065D4005E3A81 /* Assets.xcassets */,
 				92F1BC8720F065D4005E3A81 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92F1BC8120F065D3005E3A81 /* ViewController.swift in Sources */,
+				9295C31420FA4226003BDD76 /* PickerDemoController.swift in Sources */,
 				92F1BC7F20F065D3005E3A81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

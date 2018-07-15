@@ -23,8 +23,23 @@ class ViewController: UIViewController {
             let num2 = Int(number2)!
             
             let answer = num1 + num2
+            let message  = "Answer is \(answer)"
+            answerLabel.text = message
             
-            answerLabel.text = "Answer is \(answer)"
+            let alertController = UIAlertController(title: "Answer", message: message, preferredStyle: .alert)
+            
+            let dismissAction = UIAlertAction(title: "Dismiss", style: .destructive, handler:{ _ in
+                print("Dismiss clicked!")
+            })
+            
+            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler:{ _ in
+                print("Cancel clicked!")
+            })
+            
+            alertController.addAction(dismissAction)
+            alertController.addAction(cancelAction)
+            
+            present(alertController, animated: true, completion: nil)
             
             if answer > 50 {
                 containerView.backgroundColor = #colorLiteral(red: 0.7254902124, green: 0.4784313738, blue: 0.09803921729, alpha: 1)
